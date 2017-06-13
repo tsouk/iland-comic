@@ -38,3 +38,5 @@ This is an [example link](http://example.com/ "With a Title").
 > - Apple
 > - Banana
 > - Plum
+
+<img src="{{page.image2}}">
