@@ -4,16 +4,17 @@ title:  "Scene 1: Clouds"
 date:   2017-06-13 14:34:25
 categories: articles
 tags: featured
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
+published: true
+image: /assets/article_images/2017-06-13-scene-one-clouds/atlantis_cover.JPG
 ---
 
-Almost 7 years ago after travelling the islands of the Cyclads alone (having swam with my mobile phone the first day, so really alone) I went to my grandfather's house in Galaksidi. Sadly it was the first visit after my grandfather had died and it was time to go through his books (a fortune I claimed without further debate)
+Almost 7 years ago after travelling the islands of the Cyclades alone (having swam with my mobile phone the first day, so really alone) I went to my grandfather's house in Galaksidi. Sadly it was the first visit after my grandfather had died and it was time to go through his books (a fortune I claimed without further debate)
 
 In the piles of 1970s travel guides, National Geographics, 5kilo thesauri and anciect greek tragedies I found a newspaper that gruncle George had kept fo 50 years (more?). The massive illustration on the front page was a map of the island of Santorini, known to the ancients as Thira, and the bold claim "Atlantis?".
 
 <img src="{{ page.image }}">
 
-I was transfixed. The myth of Atlantis was one of my favourites and I've always been chasing every piece of literature, movie and computer game about it (if you haven't played that Indiana Jones adventure). So I grabbed it!
+I was transfixed. The myth of Atlantis was one of my favourites and I've always been chasing every piece of literature, movie and computer game about it (if you haven't played that Indiana Jones adventure). So I grabbed it! And obviously scanned it, for your perusal.
 
 Was this a valid claim though? Did Plato's account of Atlantis somehow get mixed and transferred from his travels to ancient Thira? 
 
@@ -30,9 +31,9 @@ The Minoan society was devasted by the disastrous waves that reached their shore
 
 ...there I first saw this symbol etched in stone, in the Palace of Knossos, in Crete. It depicts the Minoan mason's double axe hit by Poseidon's trident, illustrating the destruciton of the Minoans by the wrath of the Sea God. I drew it quickly on my skecthbook, failing of course to note down the right title of the documentary. 7 years later, this year,( I knew it was time to use it, and after finishing the first pages spent one day looking for that screenshot).
 
-The danger sign on the top of the cliff is inspired by that etching in the Palace of Knossos, linked to one of mine and my grandfather's favourite islands in the Cyclads, Santorini, two of the greatest civilisations of the ancient Aegean, and somehow to the mystical Atlantean myth.
+The danger sign on the top of the cliff is inspired by that etching in the Palace of Knossos, linked to one of mine and my grandfather's favourite islands in the Cyclades, Santorini, two of the greatest civilisations of the ancient Aegean, and somehow to the mystical Atlantean myth.
 
-Meet Markos, Simos and Ioanna.
+In <em>Scene 1: Clouds</em> you've met Marko, Simo and Ioanna.
 
 This is our first out of fifteen odd scenes and it ( Our first scene..) goes to all the girls and boys that climbed up a cliff and found the view to be way more frightening than they expected.
 
@@ -41,6 +42,12 @@ And for everyone who has learned that you cannot leap over a chasm in two steps.
 see you sooner.
 Nikos
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+1. Atlantis: The Evidence: http://topdocumentaryfilms.com/atlantis-evidence/ Timewatch special, historian Bettany Hughes
+1. The paper
+1. Io's dress reference
+1. Faust II
+
+[atlantis-paper]: https://github.com/
+[atlantis-docu]: http://topdocumentaryfilms.com/atlantis-evidence/
+[io-dress]:   https://github.com/
+[faust2]: https://github.com/

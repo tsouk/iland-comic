@@ -6,15 +6,15 @@ gems:
 # Site settings
 title: "iland comics"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   No man is an iland - entire of itself
 
 email: a-mail@mail.mail
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/iland_logo_2.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/shesdrinkingwine_cover.jpg"
+cover: "/assets/images/deep_blue_cover.jpg"
 
 name: 'Nikos Tsouknidas'
 author: 'Nikos Tsouknidas'
@@ -41,12 +41,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/n.tsouk
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/dirkfabisch
