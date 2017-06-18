@@ -25,12 +25,18 @@ layout: default
     <h5 class="index-headline"><span>Scenes</span></h5>
     <article class="post">
         <div class="article-item">
+        <a href="/scene/1/" class="post-overlay">
           <header class="post-header">
-          <h2 class="post-title"><a>Scene 1: Clouds</a></h2>
+            <h2 class="post-title">Scene 1: Clouds</h2>
           </header>
           <section class="post-content">
-            <img class="post-preview" src="{{site.cover| prepend: site.baseurl }}" />
+            <div class="post-fade-area">
+              <img class="post-preview" src="{{site.cover| prepend: site.baseurl }}" />
+              <span class="overlay"></span>     
+            </div>
+            <p class="post-cta">Read Clouds</p>
           </section>
+        </a>
         </div>
     </article>
 
