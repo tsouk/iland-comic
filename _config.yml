@@ -6,17 +6,18 @@ gems:
 # Site settings
 title: "iland comics"
 description: > # this means to ignore newlines until "email:"
-   No man is an iland - entire of itself
+   cylcad-punk in alternative 1830s
+# No man is an iland - entire of itself
 
-email: a-mail@mail.mail
+email: ilandcomics@gmail.com
 #blog logo
 logo: "/assets/images/iland_logo_2.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/deep_blue_cover.jpg"
+cover: "/assets/images/scene_clouds_page02_f5.jpg"
 
-name: 'Nikos Tsouknidas'
+name: 'Nikos Tsouknidas & Rob Morgan'
 author: 'Nikos Tsouknidas'
 author_image: "/assets/images/author.jpg"
 
@@ -48,9 +49,16 @@ social:
     share_title: ?t=
     share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+  # - icon:	github
+  #   url:	https://github.com/dirkfabisch
+  #   desc:	Fork me on github
+  #   share_url:
+  #   share_title:
+  #   share_link:
+
+  - icon: instagram
+    url:  https://instagram.com/tsouk.n
+    desc: Nikos Tsouknidas on instagram
     share_url:
     share_title:
     share_link:

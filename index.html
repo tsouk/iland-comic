@@ -8,30 +8,31 @@ layout: default
     </div>
 </div>
 
+
 <header class="blog-header">
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
     {% endif %}
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
-      <a href={{ "/scenes/" | prepend: site.baseurl }}>Scenes</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href={{ "/characters/" | prepend: site.baseurl }}>Characters</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href={{ "/articles/" | prepend: site.baseurl }}>Articles</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href={{ "/about/" | prepend: site.baseurl }}>About</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
+    <div class="blog-nav">
+      {% include nav.html %}
     </div>
 </header>
 
 
 <main class="content" role="main">
+    <h5 class="index-headline"><span>Scenes</span></h5>
+    <article class="post">
+        <div class="article-item">
+          <header class="post-header">
+          <h2 class="post-title"><a>Scene 1: Clouds</a></h2>
+          </header>
+          <section class="post-content">
+            <img class="post-preview" src="{{site.cover| prepend: site.baseurl }}" />
+          </section>
+        </div>
+    </article>
 
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured</span></h5>
