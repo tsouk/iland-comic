@@ -73,7 +73,9 @@ h1, h2, h3
   background-color: #000
   .teaserimage-image
     background-size: cover
-    background-position: center
+    //background-position: center
+    background-position-x: center
+    background-position-y: top
     position: absolute
     top: 0
     left: 0
@@ -475,12 +477,14 @@ h1, h2, h3
     img.post-preview
       margin: 0px
     p.post-cta
+      visibility: visible
       font-size: 60px
       font-weight: 500
       font-style: bold
-      position: relative
-      top: -170px
-      left: 170px
+      position: absolute
+      line-height: 0px
+      top: 50%
+      left: 25%
       margin: 0px
       padding: 0px
       color: #FFF
@@ -490,6 +494,11 @@ h1, h2, h3
       -webkit-transition: all 1s
       &:hover
         opacity: 1
+      @include respond-to(800)
+        font-size: 60px
+        left: 21%
+      @include respond-to(600)
+        visibility: hidden
   .bottom-teaser
     padding: 50px 0
     font-family: $font-serif
@@ -575,6 +584,8 @@ a.post-overlay
   .post-header
     .post-title
       padding-bottom: 20px
+      text-align: center
+      width: 100%
 .post-overlay:hover
   & span.overlay
     opacity: 1

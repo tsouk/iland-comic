@@ -2,7 +2,7 @@
 layout: post
 title:  "Scene 1: Clouds"
 date:   2017-06-13 14:34:25
-categories: articles
+categories: blog
 tags: featured
 published: true
 author: Nikos Tsouknidas

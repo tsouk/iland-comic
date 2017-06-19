@@ -6,12 +6,12 @@ gems:
 # Site settings
 title: "iland comics"
 description: > # this means to ignore newlines until "email:"
-   cylcad-punk in alternative 1830s
+    cyclad-punk in alternative 1830s
 # No man is an iland - entire of itself
 
 email: ilandcomics@gmail.com
 #blog logo
-logo: "/assets/images/iland_logo_2.jpg"
+logo: "/assets/images/logo_tryout.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
