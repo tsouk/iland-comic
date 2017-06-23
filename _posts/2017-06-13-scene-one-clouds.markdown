@@ -8,7 +8,7 @@ published: true
 author: Nikos Tsouknidas
 author_twitter: https://www.twitter.com/tsoukn
 author_image: /assets/images/author.jpg
-image: /assets/article_images/2017-06-13-scene-one-clouds/atlantis_cover.JPG
+image: /assets/article_images/2017-06-13-scene-one-clouds/atlantis_cover.jpg
 image2: /assets/article_images/2017-06-13-scene-one-clouds/iodive_wide.jpg
 ---
 ###Almost 7 years ago
@@ -43,8 +43,8 @@ The danger sign on the top of the cliff is inspired by that etching in the Palac
 
 Meet **Marko**, **Simo** and **Ioanna** in our first scene, Clouds.
 
-<a href="{{ page.image2 }}" data-fluidbox>
-  <img src="{{ page.image2 }}"/>
+<a href="{{ page.image2 | prepend: site.baseurl}}" data-fluidbox>
+  <img src="{{ page.image2 | prepend: site.baseurl}}"/>
 </a>
 
 This is our first out of fifteen odd scenes of a long graphic novel project called **iland**.
