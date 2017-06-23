@@ -19,8 +19,8 @@ In the piles of 1960s travel guides, National Geographics, 5kilo thesauri and an
 
 > Professor Agg. Galanopoulos reveals that the island of Santirini is the "Lost Continent", Atlantis.
 
-<a href="{{ page.image }}" data-fluidbox>
-  <img src="{{ page.image }}"/>
+<a href="{{ page.image | prepend: site.baseurl }}" data-fluidbox>
+  <img src="{{ page.image | prepend: site.baseurl }}"/>
 </a>
 
 I was transfixed. The myth of Atlantis was, and still is, my favourite. I've always been eating up every piece of literature, movie and computer game about it (in case you haven't played that [Indiana Jones adventure][indiana-jones]). So I grabbed it! And obviously scanned it, in 4 pieces, for your perusal.

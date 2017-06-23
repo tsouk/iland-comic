@@ -24,7 +24,7 @@ author_image: "/assets/images/author.jpg"
 paginate:	5
 
 url: "https://tsouk.github.io" # the base hostname & protocol for your site
-baseurl: ""
+baseurl: "/mediator"
 #used to display twitter cards
 twitter_handle: '@tsoukn'
 
