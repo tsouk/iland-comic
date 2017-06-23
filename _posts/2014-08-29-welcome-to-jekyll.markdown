@@ -6,7 +6,11 @@ categories: jekyll update
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
-Hello Omar!
+<h1>Hello Omar!</h1>
+
+you can reference images with just an `<img src= ...>`
+
+<img src="{{ page.image }}">
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

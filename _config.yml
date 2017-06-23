@@ -6,17 +6,18 @@ gems:
 # Site settings
 title: "iland comics"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+    cyclad-punk in alternative 1830s
+# No man is an iland - entire of itself
 
-email: a-mail@mail.mail
+email: ilandcomics@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo_tryout.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/shesdrinkingwine_cover.jpg"
+cover: "/assets/images/scene_clouds_page02_f5.jpg"
 
-name: 'Nikos Tsouknidas'
+name: 'Nikos Tsouknidas & Rob Morgan'
 author: 'Nikos Tsouknidas'
 author_image: "/assets/images/author.jpg"
 
@@ -41,16 +42,23 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/n.tsouk
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+  # - icon:	github
+  #   url:	https://github.com/dirkfabisch
+  #   desc:	Fork me on github
+  #   share_url:
+  #   share_title:
+  #   share_link:
+
+  - icon: instagram
+    url:  https://instagram.com/tsouk.n
+    desc: Nikos Tsouknidas on instagram
     share_url:
     share_title:
     share_link:

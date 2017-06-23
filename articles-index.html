@@ -1,14 +1,5 @@
 ---
 layout: default
-scenes:
- - title: 'Scene 1: Clouds'
-   cta: 'Read Scene 1'
-   cover: /assets/images/scene_clouds_page02_f5.jpg
-   url: /scenes/1
- - title: 'Scene 2: Postie'
-   cta: 'Read Scene 2'
-   cover: /assets/images/deep_blue_cover.jpg
-   url: /scenes/2
 ---
 
 <div class="teaserimage">
@@ -31,29 +22,6 @@ scenes:
 
 
 <main class="content" role="main">
-    <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5>
-    
-    {% for scene in page.scenes %}
-    <article class="post">
-        <div class="article-item">
-        <a href="{{scene.url  | prepend: site.baseurl }}" class="post-overlay">
-          <header class="post-header">
-            <h2 class="post-title">{{scene.title}}</h2>
-          </header>
-          <section class="post-content">
-            <div class="post-fade-area">
-              <img class="post-preview" src="{{scene.cover | prepend: site.baseurl }}" />
-              <span class="overlay"></span>
-              <p class="post-cta">{{scene.cta}}</p>     
-            </div>  
-          </section>
-        </a>
-        </div>
-    </article>
-    {% endfor %}
-
-    <h5 class="index-headline featured"><span>...for more iland visuals</span></h5>
-
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured</span></h5>
 
