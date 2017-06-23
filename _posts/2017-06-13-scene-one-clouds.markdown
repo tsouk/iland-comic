@@ -11,7 +11,7 @@ author_image: /assets/images/author.jpg
 image: /assets/article_images/2017-06-13-scene-one-clouds/atlantis_cover.jpg
 image2: /assets/article_images/2017-06-13-scene-one-clouds/iodive_wide.jpg
 ---
-###Almost 7 years ago
+### Almost 7 years ago
 
 ...after travelling the islands of the Cyclades alone, having swam with my phone in my pocket the first day, so really alone, I went to my grandfather's house in Galaksidi. Sadly it was the first visit after my grandfather had died and it was time to go through his books, a fortune I claimed without challenge.
 
