@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="teaserimage">
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
+        Teaser Image
+    </div>
+</div>
+
+
+<header class="blog-header">
+    {% if site.logo %}
+      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="blog-nav">
+      {% include nav.html %}
+    </div>
+</header>
+
+
+<main class="content sketchbook" role="main">
+  <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5>
+    
+  <div class="grid">
+    <div class="grid-sizer"></div>
+    {% for image in site.static_files %}
+      {% if image.path contains 'sketchbook' %}
+        <div class="grid-item">
+          <a href="{{ image.path | prepend: site.baseurl }}" data-fluidbox>
+            <img src="{{ image.path | prepend: site.baseurl }}" alt="image"/>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>    
+
+</main>

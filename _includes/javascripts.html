@@ -1,10 +1,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <!-- Load plugins -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
-<script type="text/javascript" src="{{ "/assets/js/jquery.fitvids.js" | prepend: site.baseurl  }}"></script>
-<script type="text/javascript" src="{{ "/assets/js/index.js" | prepend: site.baseurl  }}"></script>
-<script type="text/javascript" src="{{ "/assets/js/readingTime.min.js" | prepend: site.baseurl  }}"></script>
-<script type="text/javascript" src="{{ "/assets/js/jquery.fluidbox.min.js" | prepend: site.baseurl  }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+<script src="{{ '/assets/js/jquery.fitvids.js' | prepend: site.baseurl  }}"></script>
+<script src="{{ '/assets/js/index.js' | prepend: site.baseurl  }}"></script>
+<script src="{{ '/assets/js/readingTime.min.js' | prepend: site.baseurl  }}"></script>
+<script src="{{ '/assets/js/jquery.fluidbox.min.js' | prepend: site.baseurl  }}"></script>
+<script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+<script src="https://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
 <script>
 (function ($) {
   "use strict";
@@ -44,6 +46,19 @@
 <script>
 (function ($) {
     $("a[data-fluidbox]").fluidbox();
+}(jQuery));
+</script>
+<script>
+// init Masonry after all images have loaded
+(function ($) {
+  var $grid = $('.grid').imagesLoaded( function() {
+    $grid.masonry({
+      itemSelector: '.grid-item',
+      percentPosition: true,
+      columnWidth: '.grid-sizer',
+      gutter: 5,
+    });
+  });
 }(jQuery));
 </script>
 
