@@ -51,7 +51,7 @@ h1, h2, h3
   height: $rs*3
   background-color: #000
   overflow: hidden
-  z-index: 99
+  z-index: 1010
   .logo
     display: block
     position: absolute
@@ -642,7 +642,13 @@ a.post-overlay
 /* ---- .grid-item ---- */
 .grid-sizer,
 .grid-item 
-  width: calc(100%/3 - 5px)
+  width: calc(100%/4 - 5px)
+  @include respond-to(800)
+    width: calc(100%/3 - 5px)
+  @include respond-to(600)
+    width: calc(100%/2 - 5px)
+  @include respond-to(420)
+    width: 100%
 
 .grid-item 
   float: left
