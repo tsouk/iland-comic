@@ -640,8 +640,8 @@ a.post-overlay
   clear: both
 
 /* ---- .grid-item ---- */
-.grid-sizer,
-.grid-item 
+.grid-sizer.grid-sketchbook,
+.grid-item.grid-sketchbook
   width: calc(100%/4 - 5px)
   @include respond-to(800)
     width: calc(100%/3 - 5px)
@@ -649,6 +649,20 @@ a.post-overlay
     width: calc(100%/2 - 5px)
   @include respond-to(420)
     width: 100%
+
+.grid-sizer.grid-scenes,
+.grid-item.grid-scenes
+  &:hover
+    //padding: 2px
+  img
+    filter: grayscale(100%) contrast(30%)
+    &:hover
+      filter: grayscale(0%) contrast(100%)
+    transition: all 1s
+    -webkit-transition: all 1s 
+  width: calc(100%/6 - 5px)
+  @include respond-to(420)
+    width: calc(100%/3 - 5px)
 
 .grid-item 
   float: left

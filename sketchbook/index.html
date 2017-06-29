@@ -23,18 +23,20 @@ layout: default
 
 <main class="content sketchbook" role="main">
   <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5>
-    
+
   <div class="grid">
-    <div class="grid-sizer"></div>
-    {% for image in site.static_files %}
+    <div class="grid-sizer grid-sketchbook"></div>
+    {% assign sorted = (site.static_files | sort: 'basename') | reverse %}
+
+    {% for image in sorted %}
       {% if image.path contains 'sketchbook' %}
-        <div class="grid-item">
+        <div class="grid-item grid-sketchbook">
           <a href="{{ image.path | prepend: site.baseurl }}" data-fluidbox>
-            <img src="{{ image.path | prepend: site.baseurl }}" alt="image"/>
+            <img src="{{ image.path | prepend: site.baseurl }}" alt="{{image.modified_time}}"/>
           </a>
         </div>
       {% endif %}
     {% endfor %}
-  </div>    
+  </div>
 
 </main>
