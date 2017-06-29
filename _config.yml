@@ -4,9 +4,9 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "iland comics"
+title: "iland"
 description: > # this means to ignore newlines until "email:"
-    cyclad-punk in alternative 1830s
+    cyclad-punk comic in alternative 1830s
 # No man is an iland - entire of itself
 
 email: ilandcomics@gmail.com
@@ -45,8 +45,8 @@ social:
   - icon:	facebook
     url:	https://facebook.com/n.tsouk
     desc: Connect with me facebook
-    share_url: https://www.facebook.com/sharer.php
-    share_title: ?app_id=836888063133831&display=popup&name=
+    share_url: https://www.facebook.com/dialog/feed
+    share_title: ?app_id=836888063133831&display=popup&
     share_link: "&link="
 
   # - icon:	github
