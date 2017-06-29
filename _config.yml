@@ -45,12 +45,12 @@ social:
   - icon:	facebook
     url:	https://facebook.com/n.tsouk
     desc: Connect with me facebook
-    share_url: https://www.facebook.com/dialog/feed
-    share_title: ?app_id=836888063133831&display=popup&caption=
-    share_link: "&link="
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   # - icon:	github
-  #   url:	https://github.com/dirkfabisch
+  #   url:	https://github.com/tsouk
   #   desc:	Fork me on github
   #   share_url:
   #   share_title:
