@@ -1,14 +1,15 @@
 ---
 layout: default
-scenes:
- - title: 'Scene 1: Clouds'
-   cta: 'Read Scene 1'
-   cover: /assets/images/scene_clouds_page02_f5.jpg
-   url: /scenes/1
- - title: 'Scene 2: Postie'
-   cta: 'Read Scene 2'
+cover: /assets/images/maximus_1280.jpg
+chapters:
+ - title: 'Chapter 0: Clouds'
+   cta: 'Read Chapter 0'
+   cover: /assets/images/chapter_clouds_page02_f5.jpg
+   url: /chapters/0
+ - title: 'Chapter 1: Postie'
+   cta: 'Read Chapter 1'
    cover: /assets/images/deep_blue_cover.jpg
-   url: /scenes/2
+   url: /chapters/1
 ---
 
 <div class="teaserimage">
@@ -19,10 +20,10 @@ scenes:
 
 <header class="blog-header">
     {% if site.logo %}
-      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+      <a class="blog-logo" href={{ "/" | prepend: site.baseurl }} style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
     {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
+    <a href={{ "/" | prepend: site.baseurl }}><h1 class="blog-title">{{ site.title }}</h1></a>
+    <a href={{ "/" | prepend: site.baseurl }}><h2 class="blog-description">{{ site.description }}</h2></a>
     <div class="blog-nav">
       {% include nav.html %}
     </div>
@@ -31,18 +32,18 @@ scenes:
 <main class="content" role="main">
     <!-- <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5> -->
     
-    {% for scene in page.scenes %}
+    {% for chapter in page.chapters %}
     <article class="post">
         <div class="article-item">
-        <a href="{{scene.url  | prepend: site.baseurl }}" class="post-overlay">
+        <a href="{{chapter.url  | prepend: site.baseurl }}" class="post-overlay">
           <header class="post-header">
-            <h2 class="post-title">{{scene.title}}</h2>
+            <h2 class="post-title">{{chapter.title}}</h2>
           </header>
           <section class="post-content">
             <div class="post-fade-area">
-              <img class="post-preview" src="{{scene.cover | prepend: site.baseurl }}" />
+              <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
               <span class="overlay"></span>
-              <p class="post-cta">{{scene.cta}}</p>     
+              <p class="post-cta">{{chapter.cta}}</p>     
             </div>  
           </section>
         </a>
@@ -51,13 +52,13 @@ scenes:
     {% endfor %}
 
     <header class="post-header">
-      <h2 class="post-title">Scenes</h2>
+      <h2 class="post-title">Chapters</h2>
     </header>
     <div class="grid">
-      <div class="grid-sizer grid-scenes"></div>
-        {% for i in (1..17) %}
-          <div class="grid-item grid-scenes">
-            <a href="{{site.baseurl}}/scenes/{{i}}">
+      <div class="grid-sizer grid-chapters"></div>
+        {% for i in (0..16) %}
+          <div class="grid-item grid-chapters">
+            <a href="{{site.baseurl}}/chapters/{{i}}">
               <img src="http://via.placeholder.com/155x155/FAB" alt="{{image.modified_time}}"/>
             </a>
           </div>
