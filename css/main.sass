@@ -491,13 +491,8 @@ h1, h2, h3
       opacity: 0
       transition: all 1s
       -webkit-transition: all 1s
-    img.post-preview
+    & img.post-preview
       margin: 0px
-      filter: grayscale(0%) brightness(100%)
-      &:hover
-        filter: grayscale(50%) brightness(60%)
-      transition: all 1s
-      -webkit-transition: all 1s
     p.post-cta
       visibility: visible
       font-size: 60px
@@ -613,8 +608,12 @@ a.post-overlay
       padding: 0
       margin: 0
 .post-overlay:hover
-  & span.overlay
-    opacity: 1
+  & img.post-preview
+    filter: grayscale(0%) brightness(100%)
+    &:hover
+      filter: grayscale(50%) brightness(60%)
+    transition: all 1s
+    -webkit-transition: all 1s
 .post-overlay:hover
   & p.post-cta
     opacity: 1
