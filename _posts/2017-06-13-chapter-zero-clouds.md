@@ -7,7 +7,7 @@ tags: featured
 published: true
 author: Nikos Tsouknidas
 author_twitter: https://www.twitter.com/tsoukn
-author_image: /assets/images/author.jpg
+author_image: /assets/images/nikos_tsouknidas.jpg
 image: /assets/article_images/2017-06-13-chapter-zero-clouds/atlantis_cover.jpg
 image2: /assets/article_images/2017-06-13-chapter-zero-clouds/iodive_wide.jpg
 ---
