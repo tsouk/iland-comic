@@ -7,7 +7,7 @@
   <a href={{ "/sketchbook/" | prepend: site.baseurl }}>Sketchbook</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   {% for social in site.social %} {% if social.url %}
   <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %} ">
-            <i class="fa fa-{{ social.icon }} "></i>
+            <i class="fa fa-{{ social.icon }} " aria-hidden="true"></i>
           </a>
           &nbsp;&nbsp;·&nbsp;&nbsp;
       {% endif %}

@@ -28,7 +28,7 @@ cover: /assets/images/sketchbook_cover.jpg
     {% assign sorted = (site.static_files | sort: 'basename') | reverse %}
 
     {% for image in sorted %}
-      {% if image.path contains 'sketchbook' %}
+      {% if image.path contains 'sketchbook_files' %}
         <div class="grid-item grid-sketchbook">
           <a href="{{ image.path | prepend: site.baseurl }}" data-fluidbox>
             <img src="{{ image.path | prepend: site.baseurl }}" alt="{{image.modified_time}}"/>

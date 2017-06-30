@@ -3,9 +3,14 @@ layout: default
 cover: /assets/images/maximus_1280.jpg
 chapters:
  - title: 'Chapter 0: Clouds'
-   cta: 'Read Chapter 0'
-   cover: /assets/images/chapter_clouds_page02_f5.jpg
+   cover: /assets/images/clouds_heropromo3cut.jpg
    url: /chapters/0
+ - title: 'Chapter 1: Concert à emporter'
+   cover: /assets/images/clouds_heropromo3cut.jpg
+   url: /chapters/1
+ - title: 'Chapter 2: Direction'
+   cover: /assets/images/clouds_heropromo3cut.jpg
+   url: /chapters/2
 ---
 
 <div class="teaserimage">
@@ -27,19 +32,21 @@ chapters:
 
 <main class="content" role="main">
     <!-- <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5> -->
-    
+
+    <header class="post-header">
+      <h2 class="post-title">Chapters</h2>
+    </header>
+
     {% for chapter in page.chapters %}
-    <article class="post">
+    <article class="post post-chapter">
         <div class="article-item">
-        <a href="{{chapter.url  | prepend: site.baseurl }}" class="post-overlay">
-          <header class="post-header">
-            <h2 class="post-title">{{chapter.title}}</h2>
-          </header>
+        <a href="{{chapter.url  | prepend: site.baseurl }}" class="post-overlay" target='_blank'>
           <section class="post-content">
             <div class="post-fade-area">
               <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
-              <span class="overlay"></span>
-              <p class="post-cta">{{chapter.cta}}</p>     
+              <header class="post-header">
+                <h2 class="post-title">{{chapter.title}}</h2>
+              </header>
             </div>  
           </section>
         </a>
@@ -47,10 +54,7 @@ chapters:
     </article>
     {% endfor %}
 
-    <header class="post-header">
-      <h2 class="post-title">Chapters</h2>
-    </header>
-    <div class="grid">
+    <!-- <div class="grid">
       <div class="grid-sizer grid-chapters"></div>
         {% for i in (0..16) %}
           <div class="grid-item grid-chapters">
@@ -59,10 +63,10 @@ chapters:
             </a>
           </div>
         {% endfor %}
-    </div>
+    </div> -->
 
     {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured from the Blog</span></h5>
+    <h5 class="index-headline featured"><span>Featured in the Gazette</span></h5>
 
     <div class="container featured">
       {% for post in site.tags.featured %}

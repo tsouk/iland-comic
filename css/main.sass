@@ -142,7 +142,7 @@ h1, h2, h3
 
 .content
   width: 100%
-  max-width: 640px
+  max-width: 750px
   margin: 0 auto
   @include box-sizing(border-box)
   @include respond-to(800)
@@ -151,6 +151,9 @@ h1, h2, h3
     padding: 40px 0
     border-bottom: 1px solid #f2f2f0
     &:last-child
+      border-bottom: 0px
+    &.post-chapter
+      padding: 0 0 40px 0
       border-bottom: 0px
     .post-title
       letter-spacing: -0.02em
@@ -490,6 +493,11 @@ h1, h2, h3
       -webkit-transition: all 1s
     img.post-preview
       margin: 0px
+      filter: grayscale(0%) brightness(100%)
+      &:hover
+        filter: grayscale(50%) brightness(60%)
+      transition: all 1s
+      -webkit-transition: all 1s
     p.post-cta
       visibility: visible
       font-size: 60px
@@ -597,15 +605,29 @@ a.post-overlay
 .post-overlay
   .post-header
     .post-title
-      padding-bottom: 20px
-      text-align: center
-      width: 100%
+      position: absolute
+      bottom: 35%
+      right: 7%
 .post-overlay:hover
   & span.overlay
     opacity: 1
 .post-overlay:hover
   & p.post-cta
     opacity: 1
+
+i.fa-cta
+  color: #FFF
+  position: absolute
+  right: 33px
+  bottom: 20px
+  p.post-preview-text
+    font-weight: 600
+    position: absolute
+    font-family: sans-serif
+    width: 150px
+    bottom: -28px
+    right: 42px
+    color: #fff
 
 .share
   text-align: right
