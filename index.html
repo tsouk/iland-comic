@@ -3,13 +3,13 @@ layout: default
 cover: /assets/images/maximus_1280.jpg
 chapters:
  - title: 'Chapter 0: Clouds'
-   cover: /assets/images/clouds_heropromo3cut.jpg
+   cover: /assets/images/clouds_heropromo.jpg
    url: /chapters/0
- - title: 'Chapter 1: Concert à emporter'
-   cover: /assets/images/clouds_heropromo3cut.jpg
+ - title: 'Chapter 1: Heavy Feet'
+   cover: /assets/images/heavy_heropromo.jpg
    url: /chapters/1
- - title: 'Chapter 2: Direction'
-   cover: /assets/images/clouds_heropromo3cut.jpg
+ - title: 'Chapter 2: Road Blaster'
+   cover: /assets/images/clouds_heropromo.jpg
    url: /chapters/2
 ---
 
@@ -31,7 +31,6 @@ chapters:
 </header>
 
 <main class="content" role="main">
-    <!-- <h5 class="index-headline"><span class="lang-switch"><a>English</a> | <a>Ελληνικά</a></span></h5> -->
 
     <header class="post-header">
       <h2 class="post-title">Chapters</h2>
@@ -44,6 +43,7 @@ chapters:
           <section class="post-content">
             <div class="post-fade-area">
               <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
+              <img class="post-preview-card" src="{{chapter.cover | prepend: site.baseurl }}" />
               <header class="post-header">
                 <h2 class="post-title">{{chapter.title}}</h2>
               </header>
@@ -53,17 +53,6 @@ chapters:
         </div>
     </article>
     {% endfor %}
-
-    <!-- <div class="grid">
-      <div class="grid-sizer grid-chapters"></div>
-        {% for i in (0..16) %}
-          <div class="grid-item grid-chapters">
-            <a href="{{site.baseurl}}/chapters/{{i}}">
-              <img src="http://via.placeholder.com/155x155/FAB" alt="{{image.modified_time}}"/>
-            </a>
-          </div>
-        {% endfor %}
-    </div> -->
 
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured in the Gazette</span></h5>

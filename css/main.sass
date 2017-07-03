@@ -122,6 +122,8 @@ h1, h2, h3
     line-height: 50px
     word-break: break-word
     color: #333
+    @include respond-to(380)
+      font-size: 40px
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
@@ -493,6 +495,9 @@ h1, h2, h3
       -webkit-transition: all 1s
     & img.post-preview
       margin: 0px
+    & img.post-preview-card
+      display: none
+      //use this to make the card. 
     p.post-cta
       visibility: visible
       font-size: 60px
@@ -604,9 +609,19 @@ a.post-overlay
       text-align: right
       top: 20%
       right: 6%
-      max-width: 392px
+      max-width: 390px
       padding: 0
       margin: 0
+      @include respond-to(800)
+        max-width: 360px
+      @include respond-to(680)
+        max-width: 290px
+      @include respond-to(600)
+        font-size: 24px
+        max-width: 270px
+      @include respond-to(500)
+        font-size: 18px
+        max-width: 185px
 .post-overlay:hover
   & img.post-preview
     filter: grayscale(0%) brightness(100%)
@@ -617,6 +632,11 @@ a.post-overlay
 .post-overlay:hover
   & p.post-cta
     opacity: 1
+
+article.post-chapter:nth-of-type(2n)
+  h2.post-title
+    text-align: left
+    left: 6%
 
 i.fa-cta
   color: #FFF
@@ -646,7 +666,8 @@ i.fa-cta
 
 .blog-nav
   .custom-links
-    margin: 0 0 50px
+    line-height: 25px
+    margin: 10px 0 50px
     text-align: center
     color: #ccc
     a

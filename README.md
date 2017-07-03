@@ -4,9 +4,8 @@ iland
 A cyclad-punk comic set in an alternative 1830s strand of history. 
 
 Getting Started
----
-installing
 ----
+
 - Get Ruby Version Manager: `\curl -sSL https://get.rvm.io | bash -s stable`
 - Get the right verions: `rvm install ruby-2.3.3`
 - And use it: `rvm use ruby-2.3.3`
@@ -56,3 +55,16 @@ http://twitter.com/share?text=post_title&amp;url=post_url
 ````
 
 See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
+
+Sketchbook
+----------
+
+Download a set of images in jpg formata and put them in a separate folder in your worskspace.
+Rename all image files, starting from the latest number active +1 (eg. 00024.jpg -> 25), by using the following line in the folder with the image files. For latest number `25`:
+```
+a=25; for i in *.jpg; do new=$(printf "%04d.jpg" "$a"); mv -i -- "$i" "$new"; let a=a+1; done
+```
+
+Fonts
+-----
+website + title scenes:  https://fonts.google.com/specimen/Libre+Baskerville?selection.family=Libre+Baskerville
