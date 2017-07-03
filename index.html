@@ -5,12 +5,15 @@ chapters:
  - title: 'Chapter 0: Clouds'
    cover: /assets/images/clouds_heropromo.jpg
    url: /chapters/0
+   status: published
  - title: 'Chapter 1: Heavy Feet'
    cover: /assets/images/heavy_heropromo.jpg
    url: /chapters/1
+   status: …in progress
  - title: 'Chapter 2: Road Blaster'
    cover: /assets/images/clouds_heropromo.jpg
    url: /chapters/2
+   status: …coming soon
 ---
 
 <div class="teaserimage">
@@ -44,8 +47,8 @@ chapters:
             <div class="post-fade-area">
               <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
               <img class="post-preview-card" src="{{chapter.cover | prepend: site.baseurl }}" />
-              <header class="post-header">
-                <h2 class="post-title">{{chapter.title}}</h2>
+              <header class="post-header {% if chapter.status == '…in progress' %}in-progress{% endif %} {% if chapter.status == '…coming soon' %}coming-soon{% endif %}">
+                <h2 class="post-title " >{{chapter.title}}</h2>
               </header>
             </div>  
           </section>

@@ -622,6 +622,15 @@ a.post-overlay
       @include respond-to(500)
         font-size: 18px
         max-width: 185px
+    &.in-progress
+      .post-title
+    &.in-progress::after
+      content: "…in progress"
+      color: red
+    &.coming-soon
+      .post-title
+    &.coming-soon::after
+      content: "…coming soon"
 .post-overlay:hover
   & img.post-preview
     filter: grayscale(0%) brightness(100%)
