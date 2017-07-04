@@ -622,6 +622,9 @@ a.post-overlay
       @include respond-to(500)
         font-size: 18px
         max-width: 185px
+      @include respond-to(360)
+        font-size: 16px
+        max-width: 145px
   & .un-published 
     color: #989898
     position: absolute
@@ -629,7 +632,9 @@ a.post-overlay
     font-size: 26px
     font-style: italic
     @include respond-to(500)
-      font-size: 22px   
+      font-size: 22px
+    @include respond-to(360)
+      font-size: 14px 
 // .post-overlay:hover
 //   & img.post-preview
 //     filter: grayscale(0%) brightness(100%)
