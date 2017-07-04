@@ -11,7 +11,7 @@ chapters:
    url: /chapters/1
    status: …in progress
  - title: 'Chapter 2: Road Blaster'
-   cover: /assets/images/clouds_heropromo.jpg
+   cover: /assets/images/roadblaster_heropromo.jpg
    url: /chapters/2
    status: …coming soon
 ---
@@ -41,18 +41,25 @@ chapters:
 
     {% for chapter in page.chapters %}
     <article class="post post-chapter">
-        <div class="article-item">
-        <a href="{{chapter.url  | prepend: site.baseurl }}" class="post-overlay" target='_blank'>
+        <div class="article-item post-overlay">
+        {% if chapter.status == 'published' %}
+        <a href="{{chapter.url  | prepend: site.baseurl }}" target='_blank'>
+        {% endif %}
           <section class="post-content">
             <div class="post-fade-area">
               <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
               <img class="post-preview-card" src="{{chapter.cover | prepend: site.baseurl }}" />
-              <header class="post-header {% if chapter.status == '…in progress' %}in-progress{% endif %} {% if chapter.status == '…coming soon' %}coming-soon{% endif %}">
+              <header class="post-header">
                 <h2 class="post-title " >{{chapter.title}}</h2>
+                {% if chapter.status != 'published' %}
+                <div class="un-published">{{chapter.status}}</div>
+                {% endif %}
               </header>
             </div>  
           </section>
+        {% if chapter.status == 'published' %}
         </a>
+        {% endif %}
         </div>
     </article>
     {% endfor %}

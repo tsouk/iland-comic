@@ -622,30 +622,37 @@ a.post-overlay
       @include respond-to(500)
         font-size: 18px
         max-width: 185px
-    &.in-progress
-      .post-title
-    &.in-progress::after
-      content: "…in progress"
-      color: red
-    &.coming-soon
-      .post-title
-    &.coming-soon::after
-      content: "…coming soon"
-.post-overlay:hover
-  & img.post-preview
-    filter: grayscale(0%) brightness(100%)
-    &:hover
-      filter: grayscale(50%) brightness(60%)
-    transition: all 1s
-    -webkit-transition: all 1s
-.post-overlay:hover
-  & p.post-cta
-    opacity: 1
+  & .un-published 
+    color: #989898
+    position: absolute
+    bottom: 10%
+    font-size: 26px
+    font-style: italic
+    @include respond-to(500)
+      font-size: 22px   
+// .post-overlay:hover
+//   & img.post-preview
+//     filter: grayscale(0%) brightness(100%)
+//     &:hover
+//       filter: grayscale(50%) brightness(60%)
+//     transition: all 1s
+//     -webkit-transition: all 1s
+// .post-overlay:hover
+//   & p.post-cta
+//     opacity: 1
+
+article.post-chapter:nth-of-type(2n+1)
+  div.un-published
+    left: 30%
+    text-align: left
 
 article.post-chapter:nth-of-type(2n)
   h2.post-title
     text-align: left
     left: 6%
+  div.un-published
+    right: 40%
+    text-align: right
 
 i.fa-cta
   color: #FFF
