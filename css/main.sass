@@ -495,9 +495,9 @@ h1, h2, h3
       -webkit-transition: all 1s
     & img.post-preview
       margin: 0px
-    & img.post-preview-card
-      display: none
-      //use this to make the card. 
+      filter: contrast(100%)
+      transition: all 1s
+      -webkit-transition: all 1s
     p.post-cta
       visibility: visible
       font-size: 60px
@@ -635,13 +635,10 @@ a.post-overlay
       font-size: 22px
     @include respond-to(360)
       font-size: 14px 
-// .post-overlay:hover
-//   & img.post-preview
-//     filter: grayscale(0%) brightness(100%)
-//     &:hover
-//       filter: grayscale(50%) brightness(60%)
-//     transition: all 1s
-//     -webkit-transition: all 1s
+
+.post-overlay:hover
+  & img.post-preview
+    filter: contrast(130%)
 // .post-overlay:hover
 //   & p.post-cta
 //     opacity: 1
