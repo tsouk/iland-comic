@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: ilandcomics@gmail.com
 #blog logo
-logo: "/assets/images/logo_tryout.jpg"
+logo: "/assets/images/logo_map.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
