@@ -139,6 +139,7 @@ DEPENDENCIES
   bourbon
   github-pages
   jekyll-paginate
+  jekyll-redirect-from
   jemoji
 
 BUNDLED WITH

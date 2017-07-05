@@ -40,7 +40,7 @@ Closer at home a great island was stading in the way of the aftermath, Crete. Ho
 The Minoan society was devasted by the disastrous waves that reached their shores, (some contribute this to the destruction of their civilisation?) and they believed that the Gods where punishing them for their bad deeds.
 BLAH!
 
-There, in the Palace of Knossos in Crete, etched in stone I first saw this symbol. It depicts the Minoan mason's double axe hit by Poseidon's trident, illustrating the destruction of the Minoans by the wrath of the Sea God. I drew it quickly in my skecthbook failing of course to note down anything about the documentary. 7 years later, this year, that symbol was calling. After finishing the first pages of [Chapter 0: Clouds](https://) spent a whole day looking for that screenshot.
+There, in the Palace of Knossos in Crete, etched in stone I first saw this symbol. It depicts the Minoan mason's double axe hit by Poseidon's trident, illustrating the destruction of the Minoans by the wrath of the Sea God. I drew it quickly in my skecthbook failing of course to note down anything about the documentary. 7 years later, this year, that symbol was calling. After finishing the first pages of [Chapter 0: Clouds]({{site.baseurl}}/chapters/0) spent a whole day looking for that screenshot.
 
 IMAGE of the stone!
 IMAGE in sketchbook!
@@ -51,9 +51,11 @@ The danger sign on the top of the cliff is inspired by that etching found in the
   <img src="{{ page.image2 | prepend: site.baseurl}}"/>
 </a>
 
-Meet **Marko**, **Simo** and **Ioanna** in Clouds, the first out of seventeen odd chapters from the graphic novel **iland** by [Rob Morgan](robs twitter) and [Nikos Tsouknidas](my twitter).
+Meet **Marko**, **Simo** and **Ioanna** in Clouds, the first out of seventeen odd chapters from the graphic novel **iland** by [Rob Morgan](https://twitter.com/aboutthislater) and [Nikos Tsouknidas](https://twitter.com/tsoukn).
 
-Our first chapter is dedicated to all the girls and boys that climbed up a cliff and found the view way more frightening than they expected, and to everyone who has learned that you cannot leap a chasm in two steps.
+Our [first chapter]({{site.baseurl}}/chapters/0) is dedicated to all the girls and boys that climbed up a cliff and found the view way more frightening than they expected, and to everyone who has learned that you cannot leap a chasm in two steps.
+
+Next time you see these three kids, they will look very different.
 
 1. Atlantis: The Evidence: http://topdocumentaryfilms.com/atlantis-evidence/ Timewatch special, historian Bettany Hughes
 1. The paper

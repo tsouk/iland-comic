@@ -2,6 +2,7 @@
 gems:
   - jemoji
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Site settings
 title: "iland"

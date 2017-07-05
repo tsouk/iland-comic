@@ -68,3 +68,20 @@ a=25; for i in *.jpg; do new=$(printf "%04d.jpg" "$a"); mv -i -- "$i" "$new"; le
 Fonts
 -----
 website + title scenes:  https://fonts.google.com/specimen/Libre+Baskerville?selection.family=Libre+Baskerville
+
+Final Cut
+---------
+File are put into directories by chapter number and title
+```
+├── 0_clouds
+   ├── 0_clouds_pageXX
+   ├── gr_0_clouds_pageXX
+   ├── bw_0_clouds_pageXX
+   ├── gr_bw_0_clouds_pageXX
+   ├── web_0_clouds_pageXX
+   ├── gr_web_0_clouds_pageXX
+```
+
+Copyright
+---------
+Copyright of work comes by [default in the UK](https://www.gov.uk/copyright/overview)
