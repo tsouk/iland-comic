@@ -138,6 +138,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   github-pages
+  jekyll-paginate
   jemoji
 
 BUNDLED WITH
