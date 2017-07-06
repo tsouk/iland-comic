@@ -24,11 +24,11 @@ In the piles of 1960s travel guides, National Geographics, 10 kg thesauri and an
 
 > Professor Agg. Galanopoulos reveals that the island of Santirini is the "Lost Continent", Atlantis.
 
-<a href="{{ page.paper | prepend: site.baseurl }}" data-fluidbox>
+<a href="{{ page.paper | prepend: site.baseurl }}">
   <img src="{{ page.paper | prepend: site.baseurl }}"/>
 </a>
 
-I was transfixed. The myth of Atlantis was, and still is, one of favourites. I've always been eating up every piece of literature, movie and computer game about it (in case you haven't played that [Indiana Jones adventure][indiana-jones]). So I grabbed it and obviously [scanned it]({{ page.paper | prepend: site.baseurl }}), in a4 pieces, for the all of you who can read one third of the Rosetta Stone (the Greek third).
+I was transfixed. The myth of Atlantis was, and still is, one of favourites. I've always been eating up every piece of literature, movie and computer game about it (in case you haven't played that [Indiana Jones adventure][indiana-jones]). So I grabbed it and obviously [scanned it]({{ page.paper | prepend: site.baseurl }}), in a4 pieces, for the all of you who can read one third of the Rosetta Stone (that is the Greek third).
 
 Was this a valid claim? Did Plato's travels to ancient Thira get somehow interpreted and written down as his accounts of visiting Atlantis?
 
@@ -48,16 +48,12 @@ BLAH!
 
 There, in the Palace of Knossos in Crete, etched in stone I first saw this symbol. It depicts the Minoan mason's double axe hit by Poseidon's trident, illustrating the destruction of the Minoans by the wrath of the Sea God. I drew it quickly in my skecthbook failing of course to note down anything about the documentary. 7 years later, this year, that symbol was calling. After finishing the first pages of [Chapter 0: Clouds]({{site.baseurl}}/chapters/0) spent a whole day looking for that screenshot.
 
-<a href="{{ page.sign | prepend: site.baseurl }}" data-fluidbox>
-  <img src="{{ page.sign | prepend: site.baseurl }}"/>
-</a>
+<img src="{{ page.sign | prepend: site.baseurl }}" class="framed"/>
 IMAGE in sketchbook!
 
 The danger sign on the top of the cliff is inspired by that etching found in the Palace of Knossos, linked to one of mine and my grandfather's favourite islands in the Cyclades, two of the greatest civilisations of the ancient Aegean world and somehow to the mystical Atlantean myth.
 
-<a href="{{ page.sign_small | prepend: site.baseurl }}" data-fluidbox>
-  <img src="{{ page.sign_small | prepend: site.baseurl }}"/>
-</a>
+<img src="{{ page.sign_small | prepend: site.baseurl }}" class="framed"/>
 
 Meet **Marko**, **Simo** and **Ioanna** in Clouds, the first out of seventeen odd chapters from the graphic novel **iland** by [Rob Morgan](https://twitter.com/aboutthislater) and [Nikos Tsouknidas](https://twitter.com/tsoukn).
 

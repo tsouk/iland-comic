@@ -437,6 +437,17 @@ h1, h2, h3
     img
       max-width: 100%
       margin: 0 auto
+      &.framed
+        max-width: 90%
+        padding: 35px
+        margin: 0 auto
+        border-radius: 2px
+        box-shadow: 0px 1px 8px rgba(200, 200, 250, 0.5)
+      &.post-preview
+        margin: 0px
+        filter: contrast(100%)
+        transition: all 1s
+        -webkit-transition: all 1s
     figure
       margin: 0
       padding: 0 0 30px
@@ -502,11 +513,6 @@ h1, h2, h3
       left: 0
       background: rgba(0,0,0,0.5)
       opacity: 0
-      transition: all 1s
-      -webkit-transition: all 1s
-    & img.post-preview
-      margin: 0px
-      filter: contrast(100%)
       transition: all 1s
       -webkit-transition: all 1s
     p.post-cta
@@ -645,7 +651,7 @@ a.post-overlay
         font-size: 16px
         max-width: 145px
   & .un-published 
-    color: #989898
+    color: rgba(152,152,152,0.7)
     position: absolute
     bottom: 10%
     font-size: 26px
