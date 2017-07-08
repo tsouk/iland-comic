@@ -45,8 +45,8 @@ social:
     share_link: "&amp;url="
 
   - icon:	facebook
-    url:	https://facebook.com/n.tsouk
-    desc: Connect with me facebook
+    url:	https://www.facebook.com/ilandcomic/
+    desc: iland comic on facebook
     share_url: https://www.facebook.com/dialog/feed
     share_title: ?app_id=836888063133831&display=popup&
     share_link: "&link="
@@ -60,7 +60,7 @@ social:
 
   - icon: instagram
     url:  https://instagram.com/tsouk.n
-    desc: Nikos Tsouknidas on instagram
+    desc: Nikos Tsouknidas on Instagram
     share_url:
     share_title:
     share_link:
