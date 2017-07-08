@@ -10,4 +10,4 @@ iland is a labour-of-love comic by [Nikos Tsouknidas](https://twitter.com/tsoukn
 
 Between building instruments for the Battle of the Bands, and people badgering him to “think of his future”, teenage engineer Markos has enough to worry about without accidentally inventing lumodynamic photochemistry into the bargain. But his childhood love has returned to the island from the big city: maybe this “photography” stuff will finally let him capture a piece of the mysterious (read: weird) Ioanna.
 
-**iland** is our love-letter to invention, open-source and over-active hormones. The year is 1832 and we’re just [getting started](http://www.ilandcomic.co.uk/chapters/0).
+**iland** is our love-letter to invention, open-source and over-active hormones. The year is 1832 and we’re just [getting started]({{site.baseurl}}/chapters/0).
