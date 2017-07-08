@@ -38,7 +38,7 @@ Of course, all of us who have visited Santorini time and time again, and all of 
 
 Closer at home though a great island was stading in the way of the aftermath, Crete. Home of the Minotaur and King Minos' Labyrinth, the jail that Icarus fled on wax wings.
 
-The Minoan society was devasted by the disastrous waves that reached their shores, some contribute this to the destruction of their civilisation, although money, power and politics are way more effective in doing that. But Minoans clearly believed that the Gods where punishing them for their evil deeds.
+The Minoan society was devasted by the disastrous waves that reached their shores and some contribute this to the destruction of their civilisation, although money, power and politics are way more effective in doing that. But Minoans clearly believed that the Gods where punishing them for their evil deeds.
 
 <img src="{{ page.sign | prepend: site.baseurl }}" class="framed"/>
 
