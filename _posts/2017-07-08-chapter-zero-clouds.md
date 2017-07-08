@@ -34,7 +34,7 @@ I had to find some answers.
 
 At the time I had no idea I would be working for the BBC in about 4 months. I hadn't even applied for the job. Cue the [BBC Timewatch Special - Atlantis: The Evidence][atlantis-docu]. In it, historian Bettany Hughes talks about the same claim which on an old illustrated newspaper from the 60s seemed ludicrous. If Atlantis was indeed ancient Thira, how did it become such a potent myth?
 
-Of course, all of us who have visited Santorini time and time again, and all of you who crave but are content with pictures of it, have seen the resuts of the devastating earthquake. It was apparently one of the greatest earthquakes that the ancient world had faced. The Aegean Sea was filled with pumice and ash and smoke reached all the way to Ireland (!).
+Of course, all of us who have visited Santorini time and time again, and all of you who crave but are content with pictures of it, have seen the results of the devastating earthquake. It was apparently one of the greatest earthquakes that the ancient world had faced. The Aegean Sea was filled with pumice and ash and smoke reached all the way to Ireland (!).
 
 Closer at home though a great island was stading in the way of the aftermath, Crete. Home of the Minotaur and King Minos' Labyrinth, the jail that Icarus fled on wax wings.
 
