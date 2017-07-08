@@ -7,8 +7,8 @@ published: false
 author: Rob Morgan
 author_twitter: https://www.twitter.com/AboutThisLater
 author_image: /assets/images/rob_morgan.jpg
-image: /assets/article_images/2017-06-13-chapter-zero-clouds/atlantis_cover.jpg
-image2: /assets/article_images/2017-06-13-chapter-zero-clouds/iodive_wide.jpg
+image: /assets/article_images/clouds/atlantis_cover.jpg
+image2: /assets/article_images/clouds/iodive_wide.jpg
 ---
 
 # a Heading 1

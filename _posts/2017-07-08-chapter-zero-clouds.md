@@ -8,12 +8,12 @@ published: true
 author: Nikos Tsouknidas
 author_twitter: https://www.twitter.com/tsoukn
 author_image: /assets/images/nikos_tsouknidas.jpg
-image: /assets/article_images/2017-06-13-chapter-zero-clouds/atlantis_cover.jpg
-image2: /assets/article_images/2017-06-13-chapter-zero-clouds/atlantis_small.jpg
-sign: /assets/article_images/2017-06-13-chapter-zero-clouds/sign.jpg
-dive: /assets/article_images/2017-06-13-chapter-zero-clouds/iodive_wide.jpg
-paper: /assets/article_images/2017-06-13-chapter-zero-clouds/atlantis_cover.jpg
-sign_stone: /assets/article_images/2017-06-13-chapter-zero-clouds/sign_stone.jpg
+image: /assets/article_images/clouds/atlantis_cover.jpg
+image2: /assets/article_images/clouds/atlantis_small.jpg
+sign: /assets/article_images/clouds/sign.jpg
+dive: /assets/article_images/clouds/iodive_wide.jpg
+paper: /assets/article_images/clouds/atlantis_cover.jpg
+sign_stone: /assets/article_images/clouds/sign_stone.jpg
 ---
 
 Almost 7 years ago after travelling the islands of the Cyclades alone, all mobile means of communication destroyed by the sea on the first day, I finally found land and headed towards my grandfather's house in Galakseidi.
