@@ -3,7 +3,7 @@ layout: post
 title:  "Chapter 0 Blog: Signs from Atlantis"
 date:   2017-07-08 14:34:25
 categories: blog
-tags: featured
+tags: chapter featured
 published: true
 author: Nikos Tsouknidas
 author_twitter: https://www.twitter.com/tsoukn

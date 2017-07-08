@@ -2,7 +2,7 @@
 layout: post
 title:  "Chapter 1: Postie - ..."
 categories: blog
-tags: featured
+tags: chapter
 published: false
 author: Rob Morgan
 author_twitter: https://www.twitter.com/AboutThisLater
