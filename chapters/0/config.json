@@ -16,7 +16,7 @@
     "mouseFollowSpeed": "350ms"
   },
   "lazyLoadExtent": 6,
-  "transitionDuration": "700ms",
+  "transitionDuration": "1000ms",
   "gutterWidth": "0px",
   "drawerTransitionDuration": "500ms",
   "social": {
