@@ -64,6 +64,10 @@ Rename all image files, starting from the latest number active +1 (eg. 00024.jpg
 ```
 a=25; for i in *.jpg; do new=$(printf "%04d.jpg" "$a"); mv -i -- "$i" "$new"; let a=a+1; done
 ```
+We use 20% size 80% JPEG quality thumbs for fatser loads. To make these you need the imagemagick library installed and then to run the following command from the `assets/sketchbook_files` directory:
+```
+mogrify -resize 20% -format jpg -quality 80 -path ../sketchbook_thumbs *.jpg
+```
 
 Fonts
 -----
