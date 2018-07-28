@@ -52,7 +52,7 @@ The Liquid template engine will magical combine the different parts to a share u
 
 ```
 http://twitter.com/share?text=post_title&amp;url=post_url
-````
+```
 
 See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
 
@@ -84,6 +84,12 @@ File are put into directories by chapter number and title
    ├── gr_bw_0_clouds_pageXX
    ├── web_0_clouds_pageXX
    ├── gr_web_0_clouds_pageXX
+```
+
+# Helpful scripts
+### Crop all JPEGs in a folder (imagemagick)
+```
+for i in *.jpg; do convert $i -gravity Center -crop 1152x1691+0+0 converted_$i; done
 ```
 
 Copyright
