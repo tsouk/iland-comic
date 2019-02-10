@@ -48,7 +48,7 @@ chapters:
     {% if chapter.status == 'published' %}
     <article class="post post-chapter">
         <div class="article-item post-overlay">
-        <a href="{{chapter.url  | prepend: site.baseurl }}" target='_blank'>
+        <a href="{{chapter.url  | prepend: site.baseurl }}">
           <section class="post-content">
             <div class="post-fade-area">
               <img class="post-preview" src="{{chapter.cover | prepend: site.baseurl }}" />
