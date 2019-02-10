@@ -771,7 +771,7 @@ body[data-format="double"][data-bookend="true"] .hover-mask {
   text-align: left;
   font-size: 1.5em;
   z-index: 9999;
-  padding: 50px 100px;
+  padding: 1em 4em;
   line-height: 1.5em;
 }
 .paragraph-text p {
