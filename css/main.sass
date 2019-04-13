@@ -165,11 +165,6 @@ h1, h2, h3
       font-size: 28px
       line-height: 1.1
       margin: 0 0
-      a
-        text-decoration: none
-        color: #333332
-        &:hover
-          text-decoration: none
     .post-excerpt
       letter-spacing: -0.02em
       font-weight: 300
@@ -184,11 +179,14 @@ h1, h2, h3
       font-size: 14px
       color: #b3b3b1
       line-height: 30px
-      a
-        color: #b3b3b1
-        text-decoration: none
-        &:hover
-          text-decoration: underline
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+    a
+      text-decoration: none
+      color: #333332
+      // &:hover
+      //   text-decoration: none
 .container.featured
   padding-bottom: 40px
 
@@ -319,6 +317,8 @@ h1, h2, h3
       right: 30%
       z-index: 9
       font-family: $font-sans
+      &:hover
+        text-decoration: none
       @include box-sizing(border-box)
       @include respond-to(800)
         left: $rs
@@ -371,6 +371,8 @@ h1, h2, h3
   .noarticleimage
     .post-meta
       //font-family: $font-sans
+      &:hover
+        text-decoration: none
       padding-top: 60px
     .post-title
       font-weight: 700

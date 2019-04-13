@@ -10,6 +10,7 @@ author_twitter: https://www.twitter.com/tsoukn
 author_image: /assets/images/nikos_tsouknidas.jpg
 image: /assets/article_images/clouds/atlantis_cover.jpg
 image2: /assets/article_images/clouds/atlantis_small.jpg
+promo: /assets/article_images/clouds/clouds_blog_promo.jpg
 sign: /assets/article_images/clouds/sign.jpg
 dive: /assets/article_images/clouds/iodive_wide.jpg
 paper: /assets/article_images/clouds/atlantis_cover.jpg

@@ -8,9 +8,9 @@ published: true
 author: Nikos Tsouknidas
 author_twitter: https://www.twitter.com/tsoukn
 author_image: /assets/images/nikos_tsouknidas.jpg
-image: /assets/images/heavy-blog-hero.jpg
-image2: /assets/images/heavy-blog-hero-small.jpg
-promo: /assets/images/heavy_blog_promo.jpg
+image: /assets/article_images/heavy/heavy-blog-hero.jpg
+image2: /assets/article_images/heavy/heavy-blog-hero-small.jpg
+promo: /assets/article_images/heavy/heavy_blog_promo.jpg
 stethoscope_img: /assets/article_images/heavy/history-of-headphones-1895.jpg
 ---
 
