@@ -12,6 +12,7 @@ image: /assets/article_images/heavy/heavy-blog-hero.jpg
 image2: /assets/article_images/heavy/heavy-blog-hero-small.jpg
 promo: /assets/article_images/heavy/heavy_blog_promo.jpg
 stethoscope_img: /assets/article_images/heavy/history-of-headphones-1895.jpg
+excerpt: "Chapter 2: Heavy feet is where the main part of our story begins. 5 years have passed since the day young Ioanna found out about Takis’ experiments in the ancient chamber, after which she left for Knossos."
 ---
 
 <img src="{{ page.image | prepend: site.baseurl }}" style="display:none"/>

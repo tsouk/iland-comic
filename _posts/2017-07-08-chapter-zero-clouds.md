@@ -15,6 +15,7 @@ sign: /assets/article_images/clouds/sign.jpg
 dive: /assets/article_images/clouds/iodive_wide.jpg
 paper: /assets/article_images/clouds/atlantis_cover.jpg
 sign_stone: /assets/article_images/clouds/sign_stone.jpg
+excerpt: "Almost 7 years ago after travelling the islands of the Cyclades alone, all mobile means of communication destroyed by the sea on the first day, I finally found land and headed towards my grandfather's house in Galakseidi."
 ---
 
 Almost 7 years ago after travelling the islands of the Cyclades alone, all mobile means of communication destroyed by the sea on the first day, I finally found land and headed towards my grandfather's house in Galakseidi.
