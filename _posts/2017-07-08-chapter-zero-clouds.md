@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chapter 0 Blog: Signs from Atlantis"
+title:  "Signs from Atlantis"
 date:   2017-07-08 14:34:25
 categories: blog
 tags: chapter featured

@@ -40,7 +40,7 @@ chapters:
 <main class="content" role="main">
 
     <header class="post-header">
-      <h2 class="post-title">Published Chapters</h2>
+      <h2 class="post-title">Published Comic Book Chapters</h2>
     </header>
 
     {% for chapter in page.chapters%}
@@ -95,6 +95,7 @@ chapters:
               <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
+              <img src="{{ post.promo | prepend: site.baseurl }}">
               <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
             </section>
             <div class="post-meta">
