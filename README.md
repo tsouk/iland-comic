@@ -1,7 +1,7 @@
 iland
 =====
 
-A cyclad-punk comic set in an alternative 1830s strand of history. 
+A comic set in 1830s Greece. 
 
 Getting Started
 ----
