@@ -1,7 +1,7 @@
 iland
 =====
 
-A comic set in 1830s Greece 
+A comic set in 1830s Greece. 
 
 Getting Started
 ----
